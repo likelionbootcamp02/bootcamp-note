@@ -1,11 +1,10 @@
-# Bootcamp - Buoi 1
+# Bootcamp - Buổi 1
 ## Cài đặt phần mềm
 - Slack
 - Git
 - Github Desktop
 - Figma Desktop
 - Obsidian Vault
-
 
 
 ## Nội dung bài học
@@ -15,7 +14,7 @@
 
 ![](https://i.imgur.com/7F1tY9f.png)
 
-
+![[Pasted image 20220725140017.png]]
 ### Cấu trúc một document HTML
 - !DOCTYPE: Khai báo kiểu document là HTML
 - Thẻ head: Chứa những cấu hình của web như title, và những thứ liên quan tới SEO
