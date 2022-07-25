@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 193.5068016052246
+    "width": 192.5068016052246
   },
   "right": {
     "id": "2ff55757713ff327",
@@ -129,5 +129,9 @@
     "collapsed": true
   },
   "active": "c9a61635d4483a16",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Untitled Kanban.md",
+    "Me.md",
+    "bootcamp/buoi 1.md"
+  ]
 }

@@ -14,7 +14,7 @@
 
 ![](https://i.imgur.com/7F1tY9f.png)
 
-![[Pasted image 20220725140017.png]]
+
 ### Cấu trúc một document HTML
 - !DOCTYPE: Khai báo kiểu document là HTML
 - Thẻ head: Chứa những cấu hình của web như title, và những thứ liên quan tới SEO
@@ -39,9 +39,10 @@ có hoàn cảnh khó khăn.
 ```
 
 - img: Dành cho hình ảnh
+	-  alt: (alternative text) dùng để thay thế ghi ảnh khi ảnh ko load được, ngoài ra nó có mục đích cho việc SEO
 ```html
 <img
-src="https://kenh14cdn.com/zoom/500_314/203336854389633024/2022/7/24/photo1658681191055-16586811913482120619873.jpg"
+src="https://kenh14cdn.com/zoom/500_314/203336854389633024/2022/7/24/photo1658681191055-16586811913482120619873.jpg" alt="Hoa hau Thuy Tien"
 />
 ```
 
@@ -49,9 +50,51 @@ src="https://kenh14cdn.com/zoom/500_314/203336854389633024/2022/7/24/photo165868
 ```html
 <title>Kenh14</title>
 ```
+- Hyperlink
+	- Thẻ a: Dùng để liên kết tới trang khác
+	- href: Hypertext reference, đường dẫn để tham chiếu tới trang khác
+	- target: blank
+
+- Thẻ div: Là một box
+
+- Bài tập:
+	- https://www.w3schools.com/html/exercise.asp
 
 ### Các extensions tiện ích:
 - Live server
 - Prettier: Format các file
+- Auto Rename Tag: Tự động đổi tên thẻ đóngg
+- Image Preview: Xem trước hình ảnh
+- htmltagwrap: Tạo thẻ cha bọc các thẻ con
 
+
+### Giới thiệu về CSS:
+- Cascading Style Sheet
+
+#### Các kiểu trong CSS:
+- Inline
+- Internal 
+- External
+
+![](https://i.imgur.com/NwMF8t5.png)
+
+
+- Style cho text:
+	- font-family
+	- font-size
+	- font-weight
+	- text-transform
+	- text-style
+	- line-height
+	- text-align
+
+```css
+h1 {
+	color: rgb(34, 34, 34);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	text-transform: uppercase;
+	line-height: 30px;
+}
+```
 
