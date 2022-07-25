@@ -13,7 +13,8 @@
 - Là Hypertext Markup Language
 - Hypertext: heading, hình ảnh, video, paragraph, link
 
-![[Pasted image 20220725115450.png]]
+![](https://i.imgur.com/7F1tY9f.png)
+
 
 ### Cấu trúc một document HTML
 - !DOCTYPE: Khai báo kiểu document là HTML
@@ -49,3 +50,9 @@ src="https://kenh14cdn.com/zoom/500_314/203336854389633024/2022/7/24/photo165868
 ```html
 <title>Kenh14</title>
 ```
+
+### Các extensions tiện ích:
+- Live server
+- Prettier: Format các file
+
+
