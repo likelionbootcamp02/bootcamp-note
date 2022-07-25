@@ -6,6 +6,14 @@
 - Figma Desktop
 - Obsidian Vault
 
+### Github, Gihub usage:
+- Tạo tài khoản github
+- Tạo profile với https://gprm.itsvg.in/
+- Tạo repository cho bootcamp note
+- Tạo repository cho bootcamp code
+-  Tạo repository cho my note
+- Tạo repository cho my code
+
 
 ## Nội dung bài học
 ### Giới thiệu về HTML:
