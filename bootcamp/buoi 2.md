@@ -77,3 +77,36 @@ Source: w3schools.com/cssref/css_selectors.asp
 	text-align: center;
 }
 ```
+
+
+
+### Styling cho thẻ với hover
+- Hover: Khi di chuyển chuột lên element
+
+```css
+a:hover {
+	color: pink;
+}
+```
+
+### Xung đột giữa các selectors (Conflict selectors)
+- !important -> Inline -> Id -> class (pseudo-class) -> element (p, div, li) -> Universal selector
+
+```css
+* {
+	color: blue;
+}
+
+h1 {
+	color: red;
+}
+
+.heading {
+	color: pink;
+}
+
+#heading {
+	color: brown;
+}
+```
+
