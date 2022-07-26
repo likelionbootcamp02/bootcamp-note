@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "bootcamp/buoi 1.md",
+            "file": "bootcamp/buoi 2.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bootcamp/buoi 1.md",
+                "file": "bootcamp/buoi 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bootcamp/buoi 1.md",
+                "file": "bootcamp/buoi 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bootcamp/buoi 1.md"
+                "file": "bootcamp/buoi 2.md"
               }
             }
           }
@@ -130,8 +130,9 @@
   },
   "active": "c9a61635d4483a16",
   "lastOpenFiles": [
+    "Untitled.md",
+    "bootcamp/buoi 1.md",
     "Untitled Kanban.md",
-    "Me.md",
-    "bootcamp/buoi 1.md"
+    "Me.md"
   ]
 }
