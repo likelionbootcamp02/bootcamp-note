@@ -125,11 +125,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 100
   },
   "active": "c9a61635d4483a16",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2022-07-26 14.42.35.excalidraw.md",
+    "Excalidraw/Drawing 2022-07-26 14.42.32.excalidraw.md",
+    "bootcamp/buoi 2.md",
     "Untitled.md",
     "bootcamp/buoi 1.md",
     "Untitled Kanban.md",
