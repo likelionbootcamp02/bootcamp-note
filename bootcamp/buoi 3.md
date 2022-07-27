@@ -55,3 +55,14 @@
 
 
 
+### Flexbox
+-  Dùng để layout 1 chiều
+- **Source**: https://viblo.asia/p/huong-dan-day-du-ve-css-flexbox-maGK7J9a5j2
+- **Example**: https://www.w3schools.com/w3css/w3css_templates.asp
+- **Game**: https://flexboxfroggy.com/
+
+```css
+.container {
+	display: flex;
+}
+```
