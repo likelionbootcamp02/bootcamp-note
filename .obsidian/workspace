@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "bootcamp/buoi 2.md",
+            "file": "bootcamp/buoi 3.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bootcamp/buoi 2.md",
+                "file": "bootcamp/buoi 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bootcamp/buoi 2.md",
+                "file": "bootcamp/buoi 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bootcamp/buoi 2.md"
+                "file": "bootcamp/buoi 3.md"
               }
             }
           }
@@ -129,9 +129,10 @@
   },
   "active": "c9a61635d4483a16",
   "lastOpenFiles": [
+    "bootcamp/buoi 2.md",
+    "bootcamp/buoi 3.md",
     "Excalidraw/Drawing 2022-07-26 14.42.35.excalidraw.md",
     "Excalidraw/Drawing 2022-07-26 14.42.32.excalidraw.md",
-    "bootcamp/buoi 2.md",
     "Untitled.md",
     "bootcamp/buoi 1.md",
     "Untitled Kanban.md",
