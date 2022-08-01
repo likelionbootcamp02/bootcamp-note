@@ -8,3 +8,6 @@
 - Semantic elements
 - Các thẻ liên quan tới form: `form`, `input`, `button
 - Overlapping margin
+- Role trong HTML:
+	- Resource: https://www.youtube.com/watch?v=0hqhAIjE_8I
+
