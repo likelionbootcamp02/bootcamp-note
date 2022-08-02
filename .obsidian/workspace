@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "bootcamp/buoi 6.md",
+            "file": "Nhóm.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bootcamp/buoi 6.md",
+                "file": "Nhóm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bootcamp/buoi 6.md",
+                "file": "Nhóm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bootcamp/buoi 6.md"
+                "file": "Nhóm.md"
               }
             }
           }
@@ -129,9 +129,9 @@
   },
   "active": "c9a61635d4483a16",
   "lastOpenFiles": [
+    "bootcamp/buoi 6.md",
     "Excalidraw/Drawing 2022-07-28 14.55.47.excalidraw.md",
     "().md",
-    "bootcamp/buoi 6.md",
     "bootcamp/buoi 5.md",
     "bootcamp/buoi 4.md",
     "bootcamp/buoi 3.md",
