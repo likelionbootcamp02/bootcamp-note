@@ -1,4 +1,4 @@
-# Bootcamp - Buổi 5
+# Bootcamp - Buổi 6
 
 #### About
 ![](https://i.imgur.com/y7U0En7.png)
