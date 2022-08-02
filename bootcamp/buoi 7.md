@@ -14,7 +14,3 @@
 - Đặt class theo chuẩn BEM (Không cần thiết)
 - Thiết kế trang web sử dụng 12 cột giống bootstrap
 - Hiểu về gutter và gap
-
-
-
-
