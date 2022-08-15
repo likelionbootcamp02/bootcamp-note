@@ -323,7 +323,7 @@ console.log(century)
 ```
 
 
-### 11. Coding Challenge
+### 11. Coding Challenge 2
 
 - Cho chiều cao và cân nặng của 2 bạn học viên, so sánh chỉ số BMI của 2 bạn sử dụng if/else statement
 ```js
@@ -421,7 +421,7 @@ if (age == 18) console.log('You just became an adult :D (loose)');
 - `==` toán tử so sánh, tuy nhiên nó sẽ biến đổi thành cùng kiểu dữ liệu trước khi so sánh
 - `===` toán tử so sánh, tuy nhiên nó sẽ KHÔNG biến đổi kiểu dữ liệu trước khi so sánh
 
-### 15. Coding challenge 2
+### 15. Coding challenge 3
 - So sánh điểm GPA của 2 bạn (toán, lý, hoá)
 - Bạn A có số điểm toán lý hoá lần lượt là: 70, 95, 80
 - Bạn B có điểm toán lý hoá lần lượt là: 100, 65, 90
@@ -557,7 +557,7 @@ console.log(`I like to drink ${age >= 18 ? 'wine 🍷' : 'water 💧'}`);
 ```
 
 
-### 18. Coding challenge 3
+### 18. Coding challenge 4
 - https://codepen.io/cphemm/pen/reNwWd
 
 ```js
