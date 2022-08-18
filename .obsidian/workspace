@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "bootcamp/buoi 20.md",
+            "file": "bootcamp/buoi 21.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bootcamp/buoi 20.md",
+                "file": "bootcamp/buoi 21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bootcamp/buoi 20.md",
+                "file": "bootcamp/buoi 21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bootcamp/buoi 20.md"
+                "file": "bootcamp/buoi 21.md"
               }
             }
           }
@@ -129,15 +129,15 @@
   },
   "active": "c9a61635d4483a16",
   "lastOpenFiles": [
+    "bootcamp/buoi 18-19-20.md",
+    "bootcamp/buoi 21.md",
+    "bootcamp/buoi 21.md",
+    "Untitled.md",
     "bootcamp/buoi 16-17.md",
-    "bootcamp/buoi 18-19.md",
-    "bootcamp/buoi 20.md",
     "Excalidraw/Drawing 2022-07-28 14.55.47.excalidraw.md",
     "Screen Shot 2022-08-16 at 13.51.20.png",
     "().md",
     "bootcamp/buoi 15.md",
-    "bootcamp/abc.md",
-    "bootcamp/buoi 14.md",
-    "bootcamp/buoi 8.md"
+    "bootcamp/abc.md"
   ]
 }
