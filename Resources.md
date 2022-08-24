@@ -1,0 +1,6 @@
+- CSS Selectors Cheatsheet
+	- Source: https://gist.github.com/magicznyleszek/809a69dd05e1d5f12d01
+
+- Animatable CSS properties
+	- Source: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
+
