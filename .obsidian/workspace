@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "bootcamp/buoi 21.md",
+            "file": "Resources.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bootcamp/buoi 21.md",
+                "file": "Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bootcamp/buoi 21.md",
+                "file": "Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bootcamp/buoi 21.md"
+                "file": "Resources.md"
               }
             }
           }
@@ -129,8 +129,8 @@
   },
   "active": "c9a61635d4483a16",
   "lastOpenFiles": [
-    "Resources.md",
     "bootcamp/buoi 21.md",
+    "Resources.md",
     "bootcamp/buoi 18-19-20.md",
     "bootcamp/buoi 16-17.md",
     "Excalidraw/Drawing 2022-07-28 14.55.47.excalidraw.md",

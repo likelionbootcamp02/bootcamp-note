@@ -4,3 +4,7 @@
 - Animatable CSS properties
 	- Source: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
 
+- Accessibility Aria:
+	- Source: https://topdev.vn/blog/su-dung-aria-tren-site-ecommerce-van-de-accessibility-can-quan-tam/
+
+\
