@@ -549,10 +549,6 @@ document.getElementById("myBtn").addEventListener("click", displayDate);
 
 **Note**: Bạn không sử dụng "on" prefix cho event, sử dụng `click`  thay vì `onclick` 
 
-#### Add an Event Handler to an Element
-- 
-
-
 
 
 
