@@ -948,3 +948,329 @@ The event queue constantly checks whether or not the call stack is empty. Once t
 
 
 
+
+
+## 67. List down some of the features of ES6
+Below are the list of some new features of ES6,
+
+1.  Support for constants or immutable variables
+2.  Block-scope support for variables, constants and functions
+3.  Arrow functions
+4.  Default parameters
+5.  Rest and Spread Parameters
+6.  Template Literals
+7.  Multi-line Strings
+8.  Destructuring Assignment
+9.  Enhanced Object Literals
+10.  Promises
+11.  Classes
+12.  Modules
+
+## 68. What is ES6?
+ES6 is the sixth edition of the javascript language and it was released in June 2015. It was initially known as ECMAScript 6 (ES6) and later renamed to ECMAScript 2015. Almost all the modern browsers support ES6 but for the old browsers there are many transpilers, like Babel.js etc.
+
+
+## 69. What are default parameters?
+In E5, we need to depend on logical OR operators to handle default values of function parameters. Whereas in ES6, Default function parameters feature allows parameters to be initialized with default values if no value or undefined is passed. Let's compare the behavior with an examples,
+
+```js
+//ES5
+var calculateArea = function (height, width) {
+  height = height || 50;
+  width = width || 60;
+
+  return width * height;
+};
+console.log(calculateArea()); //300
+```
+
+The default parameters makes the initialization more simpler,
+
+```js
+//ES6
+var calculateArea = function (height = 50, width = 60) {
+  return width * height;
+};
+
+console.log(calculateArea()); //300
+```
+
+##  70. What are template literals?
+Template literals or template strings are string literals allowing embedded expressions. These are enclosed by the back-tick, character instead of double or single quotes. In E6, this feature enables using dynamic expressions as below,
+
+```js
+var greeting = `Welcome to JS World, Mr. ${firstName} ${lastName}.`;
+```
+
+In ES5, you need break string like below,
+
+```js
+var greeting = 'Welcome to JS World, Mr. ' + firstName + ' ' + lastName.`
+```
+
+**Note:** You can use multi-line strings and string interpolation features with template literals.
+
+## 71. What is destructuring assignment?
+
+The destructuring assignment is a JavaScript expression that makes it possible to unpack values from arrays or properties from objects into distinct variables. Let's get the month values from an array using destructuring assignment
+
+```js
+var [one, two, three] = ["JAN", "FEB", "MARCH"];
+
+console.log(one); // "JAN"
+console.log(two); // "FEB"
+console.log(three); // "MARCH"
+```
+
+and you can get user properties of an object using destructuring assignment,
+
+```js
+var { name, age } = { name: "John", age: 32 };
+
+console.log(name); // John
+console.log(age); // 32
+```
+
+## 72. What are default values in destructuring assignment?
+A variable can be assigned a default value when the value unpacked from the array or object is undefined during destructuring assignment. It helps to avoid setting default values separately for each assignment. Let's take an example for both arrays and object use cases,
+
+**Arrays destructuring:**
+```js
+var x, y, z;
+
+[x = 2, y = 4, z = 6] = [10];
+console.log(x); // 10
+console.log(y); // 4
+console.log(z); // 6
+```
+**Objects destructuring:**
+```js
+var { x = 2, y = 4, z = 6 } = { x: 10 };
+
+console.log(x); // 10
+console.log(y); // 4
+console.log(z); // 6
+```
+
+
+## 73. What are enhanced object literals?
+Object literals make it easy to quickly create objects with properties inside the curly braces. For example, it provides shorter syntax for common object property definition as below.
+
+```js
+//ES6
+var x = 10,
+  y = 20;
+obj = { x, y };
+console.log(obj); // {x: 10, y:20}
+//ES5
+var x = 10,
+  y = 20;
+obj = { x: x, y: y };
+console.log(obj); // {x: 10, y:20}
+```
+
+## 74. What are dynamic imports?
+The dynamic imports using `import()` function syntax allows us to load modules on demand by using promises or the async/await syntax. Currently this feature is in [stage4 proposal](https://github.com/tc39/proposal-dynamic-import). The main advantage of dynamic imports is reduction of our bundle's sizes, the size/payload response of our requests and overall improvements in the user experience. The syntax of dynamic imports would be as below,
+
+
+```js
+import("./Module").then((Module) => Module.method());
+```
+
+## 75. What are the use cases for dynamic imports?
+Below are some of the use cases of using dynamic imports over static imports,
+- Import a module on-demand or conditionally. For example, if you want to load a polyfill on legacy browser
+
+```js
+if (isLegacyBrowser()) {
+    import(···)
+    .then(···);
+}
+```
+
+- Compute the module specifier at runtime. For example, you can use it for internationalization.
+
+```js
+import(`messages_${getLocale()}.js`).then(···);
+```
+
+Import a module from within a regular script instead a module.
+
+## 76. What are the advantages of module loaders?
+The module loaders provides the below features,
+1.  Dynamic loading
+2.  State isolation
+3.  Global namespace isolation
+4.  Compilation hooks
+5.  Nested virtualization
+
+
+## 77. What is destructuring aliases?
+Sometimes you would like to have a destructured variable with a different name than the property name. In that case, you'll use a `: newName` to specify a name for the variable. This process is called destructuring aliases.
+
+```js
+const obj = { x: 1 };
+// Grabs obj.x as as { otherName }
+const { x: otherName } = obj;
+```
+
+
+## 78. What is AJAX?
+AJAX stands for Asynchronous JavaScript and XML and it is a group of related technologies(HTML, CSS, JavaScript, XMLHttpRequest API etc) used to display data asynchronously. i.e. We can send data to the server and get data from the server without reloading the web page.
+
+## 79. What are the different ways to deal with Asynchronous Code?
+Below are the list of different ways to deal with Asynchronous code.
+
+1.  Callbacks
+2.  Promises
+3.  Async/await
+4.  Third-party libraries such as async.js,bluebird etc
+
+
+## 80. What is microtask?
+Microtask is the javascript code which needs to be executed immediately after the currently executing task/microtask is completed. They are kind of blocking in nature. i.e, The main thread will be blocked until the microtask queue is empty. The main sources of microtasks are Promise.resolve, Promise.reject, MutationObservers, IntersectionObservers etc
+
+**Note:** All of these microtasks are processed in the same turn of the event loop.
+
+
+## 81. What is a microTask queue?
+Microtask Queue is the new queue where all the tasks initiated by promise objects get processed before the callback queue. The microtasks queue are processed before the next rendering and painting jobs. But if these microtasks are running for a long time then it leads to visual degradation.
+
+
+## 82. What is heap?
+Heap(Or memory heap) is the memory location where objects are stored when we define variables. i.e, This is the place where all the memory allocations and de-allocation take place. Both heap and call-stack are two containers of JS runtime. Whenever runtime comes across variables and function declarations in the code it stores them in the Heap.
+
+
+## 83. What is babel?
+Babel is a JavaScript transpiler to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments. Some of the main features are listed below,
+
+1.  Transform syntax
+2.  Polyfill features that are missing in your target environment (using @babel/polyfill)
+3.  Source code transformations (or codemods)
+
+## 84. Is Node.js completely single threaded?
+
+Node is a single thread, but some of the functions included in the Node.js standard library(e.g, fs module functions) are not single threaded. i.e, Their logic runs outside of the Node.js single thread to improve the speed and performance of a program.
+
+## 85. What is an async function?
+An async function is a function declared with the `async` keyword which enables asynchronous, promise-based behavior to be written in a cleaner style by avoiding promise chains. These functions can contain zero or more `await` expressions.
+
+Let's take a below async function example
+
+```js
+async function logger() {
+  let data = await fetch("http://someapi.com/users"); // pause until fetch returns
+  console.log(data);
+}
+logger();
+```
+
+It is basically syntax sugar over ES2015 promises and generators.
+
+
+## 86. What is global execution context?
+The global execution context is the default or first execution context that is created by the JavaScript engine before any code is executed(i.e, when the file first loads in the browser). All the global code that is not inside a function or object will be executed inside this global execution context. Since JS engine is single threaded there will be only one global environment and there will be only one global execution context.
+
+For example, the below code other than code inside any function or object is executed inside the global execution context.
+
+```js
+var x = 10;
+
+function A() {
+  console.log("Start function A");
+
+  function B() {
+    console.log("In function B");
+  }
+
+  B();
+}
+
+A();
+
+console.log("GlobalContext");
+```
+
+## 87. What is function execution context?
+Whenever a function is invoked, the JavaScript engine creates a different type of Execution Context known as a Function Execution Context (FEC) within the Global Execution Context (GEC) to evaluate and execute the code within that function.
+
+## 88. What is debouncing?
+Debouncing is a programming pattern that allows delaying execution of some piece of code until a specified time to avoid unnecessary _CPU cycles, API calls and improve performance_. The debounce function make sure that your code is only triggered once per user input. The common usecases are Search box suggestions, text-field auto-saves, and eliminating double-button clicks.
+
+Let's say you want to show suggestions for a search query, but only after a visitor has finished typing it. So here you write a debounce function where the user keeps writing the characters with in 500ms then previous timer cleared out using `clearTimeout` and reschedule API call/DB query for a new time—300 ms in the future.
+
+```js
+function debounce(func, timeout = 500) {
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      func.apply(this, args);
+    }, timeout);
+  };
+}
+function fetchResults() {
+  console.log("Fetching input suggestions");
+}
+const processChange = debounce(() => fetchResults());
+```
+
+The _debounce()_ function can be used on input, button and window events
+
+**Input:**
+
+```js
+<input type="text" onkeyup="processChange()" />
+```
+
+**Button:**
+```js
+<button onclick="processChange()">Click me</button>
+```
+
+**Windows event:**
+```js
+window.addEventListener("scroll", processChange);
+```
+
+## 89. What is throttling?
+Throttling is a technique used to limit the execution of an event handler function, even when this event triggers continuously due to user actions. The common use cases are browser resizing, window scrolling etc.
+
+The below example creates a throttle function to reduce the number of events for each pixel change and trigger scroll event for each 100ms except for the first event.
+
+```js
+const throttle = (func, limit) => {
+  let inThrottle;
+  return (...args) => {
+    if (!inThrottle) {
+      func.apply(this, args);
+      inThrottle = true;
+      setTimeout(() => (inThrottle = false), limit);
+    }
+  };
+};
+window.addEventListener("scroll", () => {
+  throttle(handleScrollAnimation, 100);
+});
+```
+
+## 90. What is optional chaining?
+According to MDN official docs, the optional chaining operator (?.) permits reading the value of a property located deep within a chain of connected objects without having to expressly validate that each reference in the chain is valid.
+
+The ?. operator is like the . chaining operator, except that instead of causing an error if a reference is nullish (null or undefined), the expression short-circuits with a return value of undefined. When used with function calls, it returns undefined if the given function does not exist.
+
+```js
+ const adventurer = {
+   name: 'Alice',
+   cat: {
+     name: 'Dinah'
+   }
+ };
+
+ const dogName = adventurer.dog?.name;
+ console.log(dogName);
+ // expected output: undefined
+
+ console.log(adventurer.someNonExistentMethod?.());
+ // expected output: undefined
+```
